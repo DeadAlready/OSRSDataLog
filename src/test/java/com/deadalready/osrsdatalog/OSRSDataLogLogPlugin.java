@@ -1,4 +1,4 @@
-package com.andmcadams.wikisync;
+package com.deadalready.osrsdatalog;
 
 import ch.qos.logback.classic.Level;
 import javax.inject.Singleton;
@@ -9,16 +9,16 @@ import org.slf4j.LoggerFactory;
 
 @Singleton
 @PluginDescriptor(
-	name = "[Debug] WikiSync Logging"
+	name = "[Debug] DataSync Logging"
 )
-public class WikiSyncLogPlugin extends Plugin
+public class OSRSDataLogLogPlugin extends Plugin
 {
 
 	@Override
 	protected void startUp()
 	{
 		((Logger) LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME)).setLevel(Level.WARN);
-		((Logger) LoggerFactory.getLogger("com.andmcadams.wikisync")).setLevel(Level.DEBUG);
+		((Logger) LoggerFactory.getLogger("com.deadalready.osrsdatasync")).setLevel(Level.DEBUG);
 	}
 
 	@Override

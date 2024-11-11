@@ -1,4 +1,4 @@
-package com.andmcadams.wikisync;
+package com.deadalready.osrsdatalog;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

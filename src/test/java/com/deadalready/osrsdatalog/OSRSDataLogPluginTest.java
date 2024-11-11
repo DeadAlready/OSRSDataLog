@@ -1,13 +1,13 @@
-package com.andmcadams.wikisync;
+package com.deadalready.osrsdatalog;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class WikiSyncPluginTest
+public class OSRSDataLogPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(WikiSyncPlugin.class, WikiSyncLogPlugin.class);
+		ExternalPluginManager.loadBuiltin(OSRSDataLogPlugin.class, OSRSDataLogLogPlugin.class);
 		RuneLite.main(args);
 	}
 }

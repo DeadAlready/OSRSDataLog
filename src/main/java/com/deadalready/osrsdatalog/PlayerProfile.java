@@ -1,4 +1,4 @@
-package com.andmcadams.wikisync;
+package com.deadalready.osrsdatalog;
 
 import lombok.Value;
 import net.runelite.client.config.RuneScapeProfileType;
