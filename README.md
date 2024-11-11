@@ -6,6 +6,9 @@ The varbits/varplayers logged are determined by config either locally or by a ma
 The aim is to provide a way to either keep a log of your progress over time or synchronise with external service
 for other purposes.
 
+If output to file is chosen the file is written in runelite directory (same directory where screenshots directory is).
+The file will be in the format `datalog-${accounthash}.txt`
+
 More information about varbits/varplayers can be found at [https://github.com/runelite/runelite/wiki/VarPlayers,-VarBits,-and-VarClients](https://github.com/runelite/runelite/wiki/VarPlayers,-VarBits,-and-VarClients)
 And [https://chisel.weirdgloop.org/varbs/index](https://chisel.weirdgloop.org/varbs/index)
 
